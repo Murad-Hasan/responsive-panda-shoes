@@ -1,0 +1,319 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1,h2,span{
+    font-family: 'Bebas Neue', 'cursive';
+}
+h3,h4,h5,h6,p,a,b{
+    font-family: 'Roboto' , 'sans-serif' ;
+}
+/* header-section */
+#header-section{
+    background: #FFF9F4;
+    padding-bottom: 50px;
+}
+.logo-manu {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5px;
+    gap: 300px;
+}
+.logo-img{
+   width: 292px;
+}
+.logo-img img{
+    max-width: 100%;
+}
+.top-manu ul{
+    font-weight: 400;
+    font-size: 16px;
+}
+.top-manu ul li{
+    list-style: none;
+}
+.top-manu ul li a{
+    text-decoration: none;
+    color: #3C3C3C;
+    margin-right: 30px;
+}
+
+.display-item{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 100px;
+}
+.product-img{
+    width: 500px;
+}
+.product-img img{
+    max-width: 100%;
+}
+.product-description h1{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 80px;
+    line-height: 80px;
+}
+.product-description span{
+    color: #FA804C;
+}
+.product-description p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #3E3E3E;
+    height: 52px;
+    width: 319px;
+}
+.buy-btn{
+    
+    background-image: linear-gradient(to bottom, #3D4FF3 50%, #3543BC 100%); 
+    color: #fff;
+    border: none;  
+    border-radius: 5px; 
+    padding: 9px 15px;  
+    margin-top: 10px;   
+    cursor: pointer;
+}
+.buy-btn a{
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 15px;
+    color: white;
+    margin-right: 6px;
+}
+/* casual shoes */
+.casual-shoes {
+    margin-top: 40px;
+}
+.casual-shoes h1{
+    font-weight: 500;
+    font-size: 48px;
+    color: #363958;
+    margin-left: 75px;
+}
+.shoes-catagory{
+    display: grid; 
+    grid-template-columns: auto auto auto; 
+    justify-content: space-evenly;
+    margin-top: 30px;
+    }
+.single-shoes{
+    border: none;
+    margin: 5px 10px;
+    box-shadow: 5px 5px 45px #a2a2a2;
+    border-radius: 10px;
+}
+.shoes-img{
+    text-align: center;
+}
+.shoe-img-top{
+    max-width: 260px;
+    display: inline-block;
+}
+.shoes-body{
+    padding: 10px;
+    background: white;
+}
+.price{
+    font-size: 25px;
+    line-height: 42px;
+    color: #FA804C;
+    font-weight: bold;
+    margin-right: 70px;
+}
+.shoes-title{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #363958;
+
+}
+.shoes-text{
+    font-size: 14px;
+    line-height: 20px;
+    color: #3E3E3E;
+    width: 260px;
+}
+.s-buy-btn{
+    background-image: linear-gradient(to bottom, #3D4FF3 50%, #3543BC 100%);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 9px 25px;
+    cursor: pointer;
+    margin: 10px;
+}
+.s-buy-btn a{
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 15px;
+    color: white;
+    margin-right: 6px;
+}
+/* FOMAL SHEOS */
+
+.formal-shoes {
+    margin-top: 45px;
+    background: #e4adf533;
+    padding: 35px 0px;
+}
+.formal-shoes h1{
+    font-weight: 500;
+    font-size: 48px;
+    color: #363958;
+    margin-left: 75px;
+}
+.f-single-shoes{
+    border: none;
+    margin: 5px 10px;
+    box-shadow: 5px 5px 10px #c1c1c1;
+    border-radius: 10px;
+}
+
+/* shopping section */
+.shopping-section{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+    margin: 100px 0px;
+}
+.shop-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.perfect{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    border: none;
+    box-shadow: -3px 4px 23px #b5b5b5fc;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+.left-img img{
+    width: 70px;
+}
+
+.exchange{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    border: none;
+    box-shadow: -3px 4px 20px #8a8787fc;
+    border-radius: 8px;
+    margin-top: 15px;
+    padding: 5px 5px;
+}
+.seller{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    border: none;
+    box-shadow: -3px 4px 20px #8a8787fc;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+.shoping-img img{
+    width: 480px;
+}
+
+/* footer section */
+
+.footer-section{
+    background: #1D1E25;
+    padding: 100px 10px;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 40px;
+}
+.foot-left-content{
+    text-align: center;
+}
+.foot-logo{
+    width: 325px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.foot-logo img{
+    max-width: 100%;
+    display: inline-block;
+}
+.foot-social a{
+    font-size: 25px;
+    color: white;
+    line-height: 150px;
+    margin-left: 5px;
+}
+.foot-middel-content{
+    display: flex;
+    align-items: flex-start;
+    gap: 100px;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.products p a{
+    text-decoration: none;
+    color: white;
+    line-height: 35px;
+}
+.community p a{
+    text-decoration: none;
+    color: white;
+    line-height: 40px;
+}
+.foot-right-content{
+    display: grid;
+    gap: 63px;
+}
+.suscribe{
+    margin-top: 45px;
+}
+.suscribe button{
+    
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);  
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-left: 35px;
+}
+.suscribe button a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+.sub-s{
+    width: 60%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.copyright{
+    text-align: center;
+    color: wheat;
+    font-size: 14px;
+}
