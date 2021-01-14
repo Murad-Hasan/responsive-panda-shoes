@@ -183,3 +183,23 @@
    
 }
 
+@media (max-width:490px){
+    .perfect{
+        display: flex;
+        flex-direction: column;
+        width: 380px;
+        text-align: center;
+        }
+    .exchange{
+        display: flex;
+        flex-direction: column;
+        width: 380px;
+        text-align: center;
+    }
+    .seller{
+        display: flex;
+        flex-direction: column;
+        width: 380px;
+        text-align: center;
+    }
+}
